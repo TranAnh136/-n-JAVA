@@ -1,0 +1,525 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : May 15, 2020, 8:06:35 PM
+    Author     : Nhat Duy
+*/
+/*CSS - Community */
+.blog-btn-v{
+    clear:both;
+    padding-top:30px;
+    text-align:center;
+}
+
+.blog-btn-v button {
+    color: #fff;
+    min-width: 219px;
+    padding: 10.5px 20px;
+    display: inline-block;
+    text-align: center;
+    font-weight: 800;
+    text-transform: uppercase;
+    font-size: 18px;
+    background: #e75b1e;
+    border: 3px solid #e75b1e;
+    margin-bottom: 15px;
+}
+
+.blog-btn-v button:hover {
+    background: none;
+    color: #000;
+}
+
+.blog-btn-v a:hover {
+    color: #000 !important ;
+}
+
+.offer-item2 img {
+    width: 80px;
+    float: left;
+    padding: 10px;
+    background: #fff;
+    border-radius: 50%;
+}
+
+.profile {
+    padding-top: 20px;
+    padding-right: 0;
+    padding-left: 0;
+    padding-bottom: 0px;
+    cursor: pointer;
+}
+
+.pr-type {
+    font-size: 12px;
+    color: #7cb342;
+}
+
+.rating {
+    position: absolute;
+    top: 12px;
+    right: -2px;
+    text-align: right;
+    padding-right: 10px;
+}
+
+.text-gray {
+    color: #9e9e9e;
+}
+
+.fa {
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.rating .rated-date {
+    color: #b2b2b2;
+    padding: 0;
+    font-size: 11px;
+    display: block;
+}
+
+.blog-dit2 {
+    width: 70%;
+    height: 100%;
+    float: left;
+    padding: 0px 3% 0 3%;
+}
+
+.blog-dit2 a{
+    font-size: 24px;
+}
+
+.fake-form {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 12px;
+    border: .5px solid #ddd;
+    margin: 15px 0;
+    clear: both;
+    overflow: hidden;
+    padding-bottom: 0;
+    padding-top: 20px;
+    width: 100%;
+    position: relative;
+}
+
+.stats {
+    font-size: 12px;
+}
+
+.stats-item {
+    text-transform: lowercase;
+    font-size: 12px;
+    color: #b2b2b2;
+    padding-right: 4px;
+}
+
+.avt {
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    float: left;
+    margin-right: 5px;
+}
+
+.avt2 {
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    float: left;
+    border: 1px;
+}
+
+.desc {
+    color: #7a7a7a;
+    padding-top: 5px;
+    height: 60px;
+    overflow: hidden;
+}
+
+.recipe-author {
+    font-weight: bold;
+}
+
+.content {
+    padding: 15px 0;
+}
+
+.pre-line {
+    margin-top: -15px;
+}
+
+.pitem {
+    overflow: hidden;
+    border-bottom: .5px solid #ddd;
+    padding-bottom: 15px;
+    position: relative;
+    background: #f8f8f8;
+    margin: -15px -30px;
+    margin-bottom: 0;
+    padding: 15px 30px;
+    border-top: .5px solid #ddd;
+}
+
+.btn-act {
+    background-color: transparent;
+    color: #7e7e7e;
+    border: 0;
+    padding: 4px 8px;
+}
+
+.review-acts {
+    padding: 5px 15px;
+    font-size: 12px;
+}
+
+.comment {
+    padding: 8px 8px 8px 0px;
+    margin-bottom: 5px;
+    min-height: 100px;
+}
+
+.comment-content {
+    margin-left: 40px;
+}
+
+.comment-head {
+    font-size: 12px;
+    float: left;
+    margin-right: 6px;
+}
+
+.date-time {
+    color: #aaa;
+    font-size: 12px;
+}
+
+.comment-head a {
+    color: #333;
+    font-weight: 700;
+}
+
+.time {
+    margin-left: 10px; 
+    float:right; 
+    font-size: 11px;
+    line-height:18px; 
+    padding-top: 1px;
+}
+
+.comment2 {
+    word-wrap: inherit;
+    background: #eee;
+    padding: 10px;
+    float: left;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-left: -150px;
+}
+
+.like {
+    font-size: 12px;
+    padding: 0;
+    color: #888;
+}
+
+.comments-wrapper {
+    border: 0;
+    border-radius: 0;
+    background: none;
+}
+
+.answer {
+    font-size: 12px;
+    margin-left: 10px;
+    color: #888;
+}
+
+.comment3 {
+    padding: 8px 8px 8px 0px;
+    max-width: 70%;
+}
+
+.d129h {
+    background-color: #f2f3f5;
+    border: 1px solid #ccd0d5;
+    border-radius: 16px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.d4w79 {
+    cursor: text;
+    flex: 1 1 auto;
+    line-height: 16px;
+    overflow: hidden;
+    padding: 5px 12px ;
+    width: 80%;
+    height: 45px;
+}
+
+.d1obb {
+    align-self: flex-end;
+    display: flex;
+    flex-direction: row;
+    height: 32px;
+    margin-left: -8px;
+    margin-right: 8px;
+    z-index: 1;
+}
+
+.d1obb li {
+    padding : 0px 5px;
+}
+
+.srf-community {
+    min-width: 798px;
+    min-height: 90%;
+    margin: 0 auto;
+    background: #fff;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 5px 15px rgba(0,0,0,.5);
+    overflow: auto;
+}
+
+.modal-header {
+    padding: 15px;
+    margin: -15px;
+    margin-bottom: 0;
+    background-color: #fafafa;
+    padding-bottom: 5px;
+}
+
+.srf-community .modal-header {
+    position: relative;
+    margin: 0;
+    padding: 15px 30px;
+}
+
+.btn-close {
+    position: absolute;
+    width: 28px;
+    height: 28px;
+    top: 10px;
+    text-align: center;
+    right: 10px;
+    border-radius: 50%;
+    display: block;
+    padding: 0;
+    cursor: pointer;
+}
+
+.ico-20 {
+    width: 20px;
+    height: 20px;
+    background-size: 20px 20px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.modal-title {
+    margin: 0;
+    line-height: 1.42857143;
+    font-size: 25px;
+}
+
+.modal-body {
+    position: relative;
+    padding: 20px;
+}
+
+.user {
+    float: left;
+    padding: 15px ;
+}
+
+.form {
+    overflow: hidden;
+    padding-top: 10px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.attached-recipe {
+    border: .5px dashed #ccc;
+    border-radius: 14px;
+    padding: 8px;
+    overflow: hidden;
+    height: 67.6px;
+}
+
+.attached-recipe select {
+    text-align: center;
+    padding: 10px 275px;
+    border: none;
+    font-size: 25px;
+    max-height: 350px;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+.no-choosen-recipe {
+    background: 0 0;   
+    text-align: center;
+    font-size: 25px;
+    color: #9e9e9e;
+    font-weight: bold;
+    border: 0;
+    padding: 10px 15px;
+    width: 100%;
+}
+
+.form-row {
+    padding: 6px 0;
+    clear: both;
+    overflow: hidden;
+}
+
+.attached-photos-container {
+    position: relative;
+    border: .5px solid #ddd;
+    border-radius: 12px;
+    padding: 10px 30px 2px;
+}
+
+.sort-able {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    min-width: 450px;
+}
+
+.sort-able li {
+    border-radius: 12px;
+    overflow: hidden;
+    margin-right: 10px;
+    border: .5px solid #ddd;
+    float: left;
+    width: 77px;
+    height: 77px;
+    text-align: center;
+}
+
+.attached-photo {
+    display: inline-block;
+    position: relative;
+    overflow: hidden;
+}
+
+.remove {
+    background-color: #fff;
+    border: 1px solid #000;
+    opacity: .95;
+    color: #000;
+    padding: 4px 4px;
+    transform: rotate(45deg);
+    text-align: center;
+    width: 60px;
+    position: absolute;
+    top: -11px;
+    right: -22px;
+    font-weight: 700;
+}
+
+.review-img-upload-box-item {
+    position: relative;
+    display: inline-block;
+    margin: 0 2px 0 2px;
+    width: 77px;
+    height: 77px;
+    vertical-align: middle;
+    background: #f8f8f8;
+    border-radius: 12px;
+}
+
+.review-txt {
+    width: 100%;
+    min-height: 130px;
+    overflow-y: auto;
+    height: 119px;
+}
+
+.img-64 {
+    width: 77px;
+    height: 77px;
+    background-size: 64px 64px;
+    text-align: center;
+    border-radius: 12px; 
+}
+
+.gray-box {
+    background: #fafafa;
+    box-shadow: none!important;
+    outline: 0;
+    border: 0;
+    border: .5px solid #ddd;
+    border-radius: 12px;
+    padding: 10px 15px;
+    height: 42px;
+    width: 100%;
+}
+
+.acts {
+    text-align: right;
+    position: relative;
+    bottom: 15px;
+    right: 15px;
+    padding-top: 15px;
+}
+
+.btn-submit-review {
+    background-color: #e75b1e;
+    color: #fff;
+    border-radius: 12px;
+    padding: .78571429em 1.5em;
+    text-transform: uppercase;
+    border-color: white;
+}
+
+.pr-opts {
+    font-size: 12px;
+    padding: 10px 0 0 0;
+}
+
+.opt2 {
+    display: inline-block;
+    margin-right: 4px;
+    padding-right: 4px;
+    font-style: italic;
+    color: #7b7b7b;
+}
+
+.opt {
+    display: inline-block;
+    font-size: 12px;
+    padding: 4px 0;
+}
+
+.selection{
+    padding: 8px 12px;
+    border: 1px dashed #ddd;
+    background: #f6f6f6;
+    border-radius: 12px;
+}
+
+.photos {
+    overflow: hidden;
+    margin: 0 -5px;
+}
+
+.pt-image {
+    padding: 20px 20px;
+    display: inline-block;
+}
+

@@ -1,0 +1,36 @@
+.mb-5{
+  margin-bottom: 3rem !important;
+}
+.comment-list {
+  padding: 0;
+  margin: 0; }
+
+  .comment-list li {
+    padding: 0;
+    margin: 0 0 30px 0;
+    
+    width: 100%;
+    
+    list-style: none; }
+    .comment-list li .vcard {
+      width: 80px;
+      float: left; }
+      .comment-list li .vcard img {
+        width: 50px;
+        border-radius: 50%; }
+    
+.button_submit{
+    display: block;
+    border-bottom: 2px solid #00BCD4;
+    margin-top: 6px;
+    margin-bottom: 10px;
+    outline-style: none;
+    padding: 7px;
+    width: 20%;
+    border-radius: 10px;
+    border: none;
+    bottom: 10px;
+    cursor: pointer;
+    background: #e75b1e;
+    color: white;
+    font-size: 20px;}

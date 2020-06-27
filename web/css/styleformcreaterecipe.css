@@ -1,0 +1,79 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jun 14, 2020, 3:01:55 PM
+    Author     : Pham An
+*/
+.inputrecipe{
+  background: 0 0;
+    box-shadow: none;
+    border: .5px solid #ddd;
+    border-radius: 0;
+    border-radius: 12px;
+    height: 42px;
+    width: 100%;
+    padding: 15px;   
+}
+   
+.typerecipe{
+   background: 0 0;
+    box-shadow: none;
+    border: .5px solid #ddd;
+    border-radius: 0;
+    border-radius: 12px;
+    height: 60px;
+    width: 35%;
+    padding: 15px; 
+}
+.inforrecipe{
+    background: 0 0;
+    box-shadow: none;
+    border: .5px solid #ddd;
+    border-radius: 0;
+    border-radius: 12px;
+    width: 100%;
+    padding: 15px; 
+}
+.buttoncreaterecipe{
+    background-color:  #e75b1e;  
+    border: none;
+    color: white;
+    padding: 7px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 2px 1px;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+.infornot{
+    background: #FFF9C4;
+    padding: 15px;
+    border: 1px dashed #FFF176;
+    margin: 30px auto;
+    width: 770px;
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+.description{
+    font-size: 16px;
+    margin: 15px;
+    background: #f0f0f0;
+    padding: 15px 30px;
+    border-radius: 12px;
+    width: 770px;
+    margin: 0 auto;
+    margin-bottom: 20px
+}
+::-webkit-input-placeholder {
+   color: #b5b0b0;
+}
+::placeholder{
+   color: #b5b0b0; 
+}
